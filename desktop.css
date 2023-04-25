@@ -1,0 +1,174 @@
+:root{
+    /* colores primarios */
+    --cian-fuerte: hsl(171, 66%, 44%);
+    --azul-claro: hsl(233, 100%, 69%);
+    /* colores neutrales */
+    --azul-grisáceo-oscuro: hsl(210, 10%, 33%);
+    --azul-grisáceo: hsl(201, 11%, 66%);
+    --white: #ffff;
+    --black: #0000;
+    /* tamaño de fuente */
+    --font-parrafo: 1.8rem;
+    --subtitles: 3rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-background{
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-info h1{
+    font-size: 4rem;
+}
+
+.container-info p{
+    font-size: var(--font-parrafo);
+    width: 600px;
+    margin: 0 auto;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.botones button:nth-child(1){
+    width: 200px;
+}
+
+.botones button:nth-child(2){
+    width: 200px;
+}
+
+main{
+    padding: 0;
+}
+
+.first-article{
+    margin-bottom: 120px;
+}
+
+.first-article h2{
+    font-size: var(--subtitles);
+}
+
+.first-article p{
+    width: 700px;
+    margin: 0 auto;
+    font-size: var(--font-parrafo);
+}
+
+.first-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.picture-first-section{
+    width: 50%;
+}
+
+.container-first-section{
+    text-align: start;
+    margin-left: 80px;
+}
+
+.article-first-section{
+    width: 400px;
+}
+
+.article-second-section h2{
+    font-size: var(--subtitles);
+    padding-bottom: 15px;
+}
+
+.article-second-section p{
+    font-size: var(--font-parrafo);
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.picture-second-section img{
+    width: 800px;
+}
+
+.supercharge h2{
+    font-size: var(--subtitles);
+}
+
+.supercharge p{
+    font-size: var(--font-parrafo);
+}
+
+.create-plain-sneak{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cps{
+    width: 400px;
+}
+
+.picture-quarter-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.clipboard h2{
+    font-size: var(--subtitles);
+}
+
+.clipboard p{
+    font-size: var(--font-parrafo);
+    width: 700px;
+    margin: 0 auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 50px;
+}
+
+.links ul li a{
+    font-size: var(--font-parrafo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
